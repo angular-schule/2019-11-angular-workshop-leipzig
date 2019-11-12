@@ -12,5 +12,10 @@
       <span *ngFor="let x of getStars()">*</span>
 
       <p>{{ book.description }}</p>
+
+      <div>
+        <button (click)="doRateUp()" class="btn btn-success mr-2" type="button"> + </button>
+        <button (click)="doRateDown()" class="btn btn-danger mr-2" type="button"> – </button>
+      </div>
     </div>
   </div>
