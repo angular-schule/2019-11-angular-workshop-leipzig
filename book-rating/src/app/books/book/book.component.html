@@ -17,6 +17,10 @@
         <button (click)="doRateUp()" class="btn btn-success mr-2" type="button" data-testid="rateUpBtn"> + </button>
         <button (click)="doRateDown()" class="btn btn-danger mr-2" type="button"> – </button>
       </div>
+
+      <p>
+        Preis: {{ book.price | currency:'EUR' }}
+      </p>
     </div>
   </div>
 
