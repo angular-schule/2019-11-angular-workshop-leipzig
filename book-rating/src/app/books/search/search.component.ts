@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { BookStoreService } from '../shared/book-store.service';
 
 @Component({
   selector: 'br-search',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
-  constructor() { }
+  searchControl: FormControl;
+
+  constructor(private bs: BookStoreService) { }
 
   ngOnInit() {
+    this.searchControl = new FormControl('');
+    this.searchControl.valueChanges
+      .subscribe(e => console.log(e));
   }
 
 }
