@@ -111,6 +111,13 @@ Das Fernbusterminal Leipzig befindet sich direkt neben dem Hauptbahnhof. Leipzig
 Direkt unter dem Augustusplatz befindet sich ein [öffentliches Parkhaus](https://www.q-park.de/de-de/staedte/leipzig/augustusplatz/). Die Einfahrt befindet sich zwischen Gewandhaus und Universität.
 Bitte beachten Sie, dass die Parkkosten nicht im Preis enthalten sind und selbst getragen werden müssen.
 
+# Nächste Schulung
+
+Du hast diesen Kurs verpasst?  
+Unsere nächste öffentliche Schulung findet vom 11. bis 14. Februar 2020 in Heidelberg statt.  
+» [Weitere Infos zur Schlung in Heidelberg](https://angular.schule/schulungen/heidelberg)
+
+
 
 <hr>
 
