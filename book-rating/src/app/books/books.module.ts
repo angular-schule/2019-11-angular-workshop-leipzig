@@ -7,6 +7,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { BookRatingService } from './shared/book-rating.service';
 import { BookDetailsComponent } from './book-details/book-details.component';
 import { SearchComponent } from './search/search.component';
+import { CreateBookComponent } from './create-book/create-book.component';
+import { BookFormComponent } from './book-form/book-form.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { SearchComponent } from './search/search.component';
     DashboardComponent,
     BookComponent,
     BookDetailsComponent,
-    SearchComponent
+    SearchComponent,
+    CreateBookComponent,
+    BookFormComponent
   ],
   imports: [
     CommonModule,
