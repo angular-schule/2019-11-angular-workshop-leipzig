@@ -9,6 +9,7 @@ import { BookDetailsComponent } from './book-details/book-details.component';
 import { SearchComponent } from './search/search.component';
 import { CreateBookComponent } from './create-book/create-book.component';
 import { BookFormComponent } from './book-form/book-form.component';
+import { CounterComponent } from './counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BookFormComponent } from './book-form/book-form.component';
     BookDetailsComponent,
     SearchComponent,
     CreateBookComponent,
-    BookFormComponent
+    BookFormComponent,
+    CounterComponent
   ],
   imports: [
     CommonModule,
