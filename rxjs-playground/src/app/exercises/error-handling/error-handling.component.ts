@@ -16,7 +16,12 @@ export class ErrorHandlingComponent {
 
   start() {
     this.es.randomError().pipe(
-
+      // retry(5)
+      catchError(err => {
+        console.log(err);
+        // return throwError('BÖSER FEHLER');
+        return of('nichts passiert 😇');
+      })
     ).subscribe(
       value => this.logStream$.next(value),
       err => this.logStream$.next('💥 ERROR: ' + err)

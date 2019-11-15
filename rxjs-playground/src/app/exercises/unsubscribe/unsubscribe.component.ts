@@ -10,19 +10,22 @@ export class UnsubscribeComponent implements OnInit, OnDestroy {
 
   logStream$ = new Subject<string | number>();
 
+  destroy$ = new Subject();
 
   ngOnInit() {
-    const interval$ = timer(0, 1000);
+    const interval$ = timer(0, 1000).pipe(
+      takeUntil(this.destroy$)
+    );
 
     interval$.subscribe(
       msg => this.log(msg),
       err => this.log('ERROR: ' + err),
       () => this.log('COMPLETED')
-    );
+    )
   }
 
   ngOnDestroy() {
-
+    this.destroy$.next();
   }
 
 
