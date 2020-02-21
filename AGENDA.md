@@ -1,4 +1,8 @@
-## Zur Agenda für die Angular-Schulung im März 2020: [hier entlang](https://github.com/angular-schule/2020-03-angular-workshop-leipzig/blob/master/AGENDA.md)
+👇👇👇👇👇👇👇👇👇👇
+
+## ⚠️ Zur Agenda für die Angular-Schulung im März 2020: [hier entlang](https://github.com/angular-schule/2020-03-angular-workshop-leipzig/blob/master/AGENDA.md)
+
+☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️
 
 
 ![Banner](https://assets.angular.schule/header-leipzig.png)
